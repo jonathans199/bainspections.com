@@ -143,12 +143,12 @@
                 </div>
              </div>
              <div class="sec-c-bottom">
-                 <!-- <div class="sec-c-bottom-left">
+                 <div class="sec-c-bottom-left">
                      <div class="sec-c-bottom-text-left">
                         <p>As a consumer,<strong class="strong-red">you will find numerous inspection companies available for hire.</strong>  We suggest this decision not be made based solely on whose services are the cheapest. Here are a few reasons to choose Allied Building Inspection Services:</p>
                      </div>
                   
-                 </div> -->
+                 </div>
                 <div class="sec-c-bottom-right">
                     <div class="wrap-in-bottom-right">
                         <ul class="wrap-list">
