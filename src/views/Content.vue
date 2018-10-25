@@ -143,14 +143,12 @@
                 </div>
              </div>
              <div class="sec-c-bottom">
-                 <div class="sec-c-bottom-left">
+                 <!-- <div class="sec-c-bottom-left">
                      <div class="sec-c-bottom-text-left">
                         <p>As a consumer,<strong class="strong-red">you will find numerous inspection companies available for hire.</strong>  We suggest this decision not be made based solely on whose services are the cheapest. Here are a few reasons to choose Allied Building Inspection Services:</p>
                      </div>
-                     <div class="sec-c-bottom-img-left">
-                         <img src="./../assets/img/backgrounds/backgroundSecC.png" >
-                     </div>
-                 </div>
+                  
+                 </div> -->
                 <div class="sec-c-bottom-right">
                     <div class="wrap-in-bottom-right">
                         <ul class="wrap-list">
@@ -170,74 +168,7 @@
              </div>
          </section>
 <!-- SECTION D -->
-        <section class="sec-d">
-            <div class="sec-d-top">
-                <div class="sec-d-layer"></div>
-                <div class="sec-d-top-title">
-                    <h1><span>OUR</span> INSPECTION TEAM</h1>
-                </div>
-            </div>  
-            <div class="sec-d-center">
-                <div class="sec-d-center-title">
-                    <h3>Expert are always helping you</h3>
-                </div>
-                <div class="sec-d-center-cardeck">
-                    <div class="container">
-                        <div class="card-deck">
-                            <div class="w-100 d-none d-md-block d-lg-none"><!-- wrap every 3 on md--></div>
-                            <div class="card my-3">
-                                <img src="http://placehold.it/560x560" class="card-img-top">
-                                <div class="card-body">
-                                    <h4 class="card-title">Title</h4>
-                                    <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                                    <button class="btn btn-" type="button">Button</button>
-                                </div>
-                            </div>
-                            <div class="card my-3">
-                                <img src="http://placehold.it/560x560" class="card-img-top">
-                                <div class="card-body">
-                                    <h4 class="card-title">Title</h4>
-                                    <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                                    <button class="btn btn-" type="button">Button</button>
-                                </div>
-                            </div>
-                            <div class="card my-3">
-                                <img src="http://placehold.it/560x560" class="card-img-top">
-                                <div class="card-body">
-                                    <h4 class="card-title">Title</h4>
-                                    <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                                    <button class="btn btn-" type="button">Button</button>
-                                </div>
-                            </div>
-                            <div class="card my-3">
-                                <img src="http://placehold.it/560x560" class="card-img-top">
-                                <div class="card-body">
-                                    <h4 class="card-title">Title</h4>
-                                    <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                                    <button class="btn btn-" type="button">Button</button>
-                                </div>
-                            </div>
-                            <div class="card my-3">
-                                <img src="http://placehold.it/560x560" class="card-img-top">
-                                <div class="card-body">
-                                    <h4 class="card-title">Title</h4>
-                                    <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                                    <button class="btn btn-" type="button">Button</button>
-                                </div>
-                            </div>
-                            <div class="card my-3">
-                                <img src="http://placehold.it/560x560" class="card-img-top">
-                                <div class="card-body">
-                                    <h4 class="card-title">Title</h4>
-                                    <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                                    <button class="btn" type="button">Button</button>
-                                </div>
-                            </div>
-                           
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <section class="sec-d"> 
             <div class="sec-d-bottom">
                 <div class="sec-d-layer"></div>
                 <div class="sec-d-bottom-title">
@@ -246,7 +177,6 @@
                 <div class="sec-d-bottom-cardeck">
                      <div class="container">
                         <div class="card-deck">
-                            
                             <div class="card my-3">
                                 <img src="http://placehold.it/560x560" class="card-img-top">
                                 <div class="card-body">
@@ -264,7 +194,6 @@
                                 </div>
                             </div>
                             <div class="card my-3">
-
                                 <img src="http://placehold.it/560x560" class="card-img-top">
                                 <div class="card-body">
                                     <h4 class="card-title">Title</h4>
@@ -272,8 +201,6 @@
                                     <button class="btn btn-primary" type="button">Button</button>
                                 </div>
                             </div>
-                            
-                           
                         </div>
                     </div>
                 </div>
@@ -311,10 +238,6 @@
                 <div class="sec-f-top-content-item"> 
                     <h3>Miami Association of Realtors - Realtors Commercial Alliance</h3>
                     <span>2012 & 2015 RCA Corporate & Affiliate of the Year</span>
-                </div>
-                <div class="sec-f-top-content-item">
-                    <h3>CCIM- Miami-Dade County Chapter</h3>
-                    <span>Gold Sponsor 2011, 2012, 2013, 2014, 2015</span>
                 </div>
                 <div class="sec-f-top-content-item">
                     <h3>Miami-Dade County Women’s Council of Realtors</h3>
