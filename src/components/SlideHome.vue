@@ -2,7 +2,7 @@
 <div>
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         
-        <ol class="carousel-indicators">
+        <ol class="carousel-indicators display-none-2">
             <!-- <li v-for="po in pos" :key="po.id" :data-target="'#carouselExampleIndicators'" :data-slide-to="po"></li> -->
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>

@@ -135,7 +135,7 @@
          <!-- SECTION C -->
          <section class="sec-c">
              <div class="sec-c-top">
-                 <div><h2>WHY CHOOSE <strong class="strong-red">B&A ENGINEERING </strong>TO DO YOUR INSPECTIONS?</h2></div>
+                 <div class="sec-c-top-title"><h2>WHY CHOOSE <strong class="strong-red">B&A ENGINEERING </strong>TO DO YOUR INSPECTIONS?</h2></div>
                 <div class="sec-c-to-icons">
                     <img src="./../assets/img/icons/icon0SecC.png" alt="">
                     <img src="./../assets/img/icons/icon1SecC.png" alt="">
@@ -144,7 +144,12 @@
              </div>
              <div class="sec-c-bottom">
                  <div class="sec-c-bottom-left">
-                     <p>As a consumer,<strong class="strong-red">you will find numerous inspection companies available for hire.</strong>  We suggest this decision not be made based solely on whose services are the cheapest. Here are a few reasons to choose Allied Building Inspection Services:</p>
+                     <div class="sec-c-bottom-text-left">
+                        <p>As a consumer,<strong class="strong-red">you will find numerous inspection companies available for hire.</strong>  We suggest this decision not be made based solely on whose services are the cheapest. Here are a few reasons to choose Allied Building Inspection Services:</p>
+                     </div>
+                     <div class="sec-c-bottom-img-left">
+                         <img src="./../assets/img/backgrounds/backgroundSecC.png" >
+                     </div>
                  </div>
                 <div class="sec-c-bottom-right">
                     <div class="wrap-in-bottom-right">
