@@ -179,7 +179,7 @@
     color:#ffffff;
 }
 .text-center-ir{
-    bottom: 30px !important;
+    top: 8% !important;
 }
 /*SECTION C*/
 .sec-c{
@@ -735,15 +735,6 @@ textarea{
     text-align: left;
 }
 @media (max-width: 900px){ 
-    .wrap-list li:nth-child(10){
-        display: none;
-    }
-    .wrap-list li:nth-child(9){
-        display: none;
-    }
-    .wrap-list li:nth-child(8){
-        display: none;
-    }
     .sec-c-bottom-left{
         height: 75%;
     }
