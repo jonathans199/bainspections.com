@@ -17,7 +17,7 @@
             <div class="carousel-item active">
                 <div class="layer-slider"></div>
                 <img class="d-block w-100" src="@/assets/img/slide/slideHero0.png" alt="First slide">
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption  d-md-block">
                    <h1>{{text.title}}</h1>
                     <p>{{text.description}}</p>
                 </div>
@@ -25,7 +25,7 @@
             <div class="carousel-item">
                 <div class="layer-slider"></div>
                 <img class="d-block w-100" src="@/assets/img/slide/slideHero1.png" alt="Second slide">
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption  d-md-block">
                     <h1>{{text.title}}</h1>
                     <p>{{text.description}}</p>
                 </div>
@@ -33,7 +33,7 @@
             <div class="carousel-item">
                 <div class="layer-slider"></div>
                 <img class="d-block w-100" src="@/assets/img/slide/slideHero2.png" alt="Third slide">
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption  d-md-block">
                     <h1>{{text.title}}</h1>
                     <p>{{text.description}}</p>
                 </div>
@@ -41,7 +41,7 @@
             <div class="carousel-item">
                 <div class="layer-slider"></div>
                 <img class="d-block w-100" src="@/assets/img/slide/slideHero3.png" alt="Third slide">
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption  d-md-block">
                     <h1>{{text.title}}</h1>
                     <p>{{text.description}}</p>
                 </div>
@@ -49,7 +49,7 @@
             <div class="carousel-item">
                 <div class="layer-slider"></div>
                 <img class="d-block w-100" src="@/assets/img/slide/slideHero4.png" alt="Third slide">
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption  d-md-block">
                     <h1>{{text.title}}</h1>
                     <p>{{text.description}}</p>
                 </div>

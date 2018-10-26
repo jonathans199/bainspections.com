@@ -2,6 +2,7 @@
 .carousel-caption{
 	top: 43%;  
 }
+
 .layer-slider{
 	background-color: rgba(255, 255, 255, 0.3);
 	position: absolute;
@@ -19,7 +20,8 @@
     display:flex;
     justify-content: center;
     position: absolute;
-    bottom: 80px;
+		// bottom: 80px;
+		top: 80%;
     left: 0;
     right: 0;
     z-index: 5;
@@ -41,7 +43,7 @@
 }
 @media (max-width: 850px){
 	.carousel-caption{
-		bottom: 150px;
+		bottom: 40%;
 	}
 
 }
@@ -51,7 +53,10 @@
 		margin-top: 150px;
 	}
 	.hero-btn{
-		bottom: 45%;;
+		top: 60%;
+	}
+	.carousel-caption{
+		top: 25%;
 	}
 	// .carousel-control-prev{
 	// 	top: 100px;
@@ -66,17 +71,24 @@
 
 
 @media (max-width: 600px){
-	.carousel{
-		margin-top: 150px;
-	}
+	// .carousel{
+	// 	margin-top: 150px;
+	// }
 	.hero-btn{
-		bottom: 38%;;
+		// bottom: 38%;
 	}
-	// .carousel-control-prev{
-	// 	top: 5%;
-	// }
-	// .carousel-control-next{
-	// 	top: 5%;
-	// }
+	.carousel-caption h1{
+		font-size: 25px;
+	}
+	.carousel-caption p{
+		font-size: 15px;
+		
+	}
+}
+
+@media (max-width: 600px){
+	.carousel-caption{
+			top: 15%;
+	}
 }
 

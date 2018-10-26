@@ -51,28 +51,28 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img class="d-block w-100" src="./../assets/img/slideContent/slideContent0.png" alt="First slide">
-                        <div class="carousel-caption text-center-ir d-none d-md-block">
+                        <div class="carousel-caption text-center-ir  d-md-block">
                             <h1>{{textSlider2[0].title}}</h1>
                             <p>{{textSlider2[0].text}}</p>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img class="d-block w-100" src="./../assets/img/slideContent/slideContent1.png" alt="Second slide">
-                        <div class="carousel-caption text-center-ir d-none d-md-block">
+                        <div class="carousel-caption text-center-ir  d-md-block">
                            <h1>{{textSlider2[1].title}}</h1>
                             <p>{{textSlider2[1].text}}</p>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img class="d-block w-100" src="./../assets/img/slideContent/slideContent2.png" alt="Third slide">
-                        <div class="carousel-caption text-center-ir d-none d-md-block">
+                        <div class="carousel-caption text-center-ir  d-md-block">
                            <h1>{{textSlider2[2].title}}</h1>
                             <p>{{textSlider2[2].text}}</p>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img class="d-block w-100" src="./../assets/img/slideContent/slideContent3.png" alt="Third slide">
-                        <div class="carousel-caption text-center-ir d-none d-md-block">
+                        <div class="carousel-caption text-center-ir  d-md-block">
                             <h1>{{textSlider2[3].title}}</h1>
                             <!-- <p>{{textSlider2[0].text}}</p> -->
                         </div>
@@ -135,7 +135,9 @@
          <!-- SECTION C -->
          <section class="sec-c">
              <div class="sec-c-top">
-                 <div class="sec-c-top-title"><h2>WHY CHOOSE <strong class="strong-red">B&A ENGINEERING </strong>TO DO YOUR INSPECTIONS?</h2></div>
+                 <div class="sec-c-top-title">
+                    <h2>WHY CHOOSE <strong class="strong-red">B&A ENGINEERING </strong>TO DO YOUR INSPECTIONS?</h2>
+                </div>
                 <div class="sec-c-to-icons">
                     <img src="./../assets/img/icons/icon0SecC.png" alt="">
                     <img src="./../assets/img/icons/icon1SecC.png" alt="">
@@ -144,10 +146,10 @@
              </div>
              <div class="sec-c-bottom">
                  <div class="sec-c-bottom-left">
+                     <div class="sec-d-layer"></div>
                      <div class="sec-c-bottom-text-left">
                         <p>As a consumer,<strong class="strong-red">you will find numerous inspection companies available for hire.</strong>  We suggest this decision not be made based solely on whose services are the cheapest. Here are a few reasons to choose Allied Building Inspection Services:</p>
                      </div>
-                  
                  </div>
                 <div class="sec-c-bottom-right">
                     <div class="wrap-in-bottom-right">
@@ -175,7 +177,7 @@
                     <h1>TESTIMONIALS</h1>
                 </div>
                 <div class="sec-d-bottom-cardeck">
-                     <div class="container">
+                     <div class="containe">
                         <div class="card-deck">
                             <div class="card my-3">
                                 <img src="http://placehold.it/560x560" class="card-img-top">
@@ -263,13 +265,14 @@
             </div>
         </div>
     </section>
-    <!-- SECTION G -->
+    <!-- SECTION CONTACT -->
     <section class="sec-contact">
         <div class="sec-contact-left">
-            <div class="sec-contact-left-title">
+            <!-- <div class="sec-contact-left-title">
                 <h1>STAY IN TOUCH</h1>
-            </div>
+            </div> -->
             <form>
+                <h1>STAY IN TOUCH</h1>
                 <label>E-mail</label>
                 <input placeholder="Email Address">
                  <label>Name: *</label>
@@ -298,10 +301,30 @@
                 </div>
                 <p>8203 SW 124th Street Miami, FL 33156</p>
             </div>
+             <div class="sec-contact-item">
+                <div class="wrap-sec-contact-item">
+                    <img src="./../assets/img/icons/iphonIconB.png">
+                    <h2>Email</h2>
+                </div>
+                <p>example@banda.com</p>
+                
+            </div>
+             <div class="sec-contact-item">
+                <div class="wrap-sec-contact-item">
+                    <img src="./../assets/img/icons/iphonIconB.png">
+                    <h2>Web Address</h2>
+                </div>
+                <p>www.banda.com</p>
+                
+            </div>
             <div class="sec-contact-item">
-                <img src="./../assets/img/icons/iphonIconB.png">
-                <img src="./../assets/img/icons/faceIconB.png">
-                <img src="./../assets/img/icons/emailIconB.png">
+                <div class="teIR">
+                <div class="wrap-sec-contact-img">
+                    <img src="./../assets/img/icons/iphonIconB.png">
+                    <img src="./../assets/img/icons/faceIconB.png">
+                    <img src="./../assets/img/icons/emailIconB.png">
+                </div>
+                </div>
             </div>
           </div>
         </div>

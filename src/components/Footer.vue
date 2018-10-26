@@ -1,7 +1,7 @@
 <template>
   <div class="wrap-footer">
     <div class="wrap-logo-footer">
-      <div class="logo-ba">
+      <div class="logo-ba-footer">
         <img src="@/assets/img/logos/footerLogo.png">
       </div>
       <div class="nav-menu-footer">
