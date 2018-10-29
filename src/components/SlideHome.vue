@@ -11,7 +11,7 @@
             <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
         </ol>
         <div class="hero-btn">
-            <input type="button" value="REQUEST A QUOTE">
+            <input type="button" value="REQUEST A QUOTE" @click="openModal('modal-wrap')">
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -68,10 +68,13 @@
        
       
     </div>
+     <!-- <Quote/> -->
 </div>
+
 </template>
 
 <script>
+import Quote from '../components/Quote'
 export default {
   name: 'SlideHome',
   data () {
@@ -82,6 +85,18 @@ export default {
           
       }
   }
-}
+},
+ methods: {
+    openModal(id){
+        // alert(id);
+      var modal=document.getElementById(id);
+      if(modal.classList.contains('modal-display-none'))
+        {
+            modal.classList.remove('modal-display-none');
+            modal.classList.add('modal-display-flex');
+        }
+    }
+  }
 }
 </script>
+
