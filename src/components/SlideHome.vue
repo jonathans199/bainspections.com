@@ -1,5 +1,5 @@
 <template>
-<div>
+<div id="">
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         
         <ol class="carousel-indicators display-none-2">
@@ -10,7 +10,7 @@
             <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
         </ol>
-        <div class="hero-btn">
+        <div data-aos="zoom-in" class="hero-btn">
             <input type="button" value="REQUEST A QUOTE" @click="openModal('modal-wrap')">
         </div>
         <div class="carousel-inner">
@@ -18,13 +18,21 @@
                 <div class="layer-slider"></div>
                 <img class="d-block w-100" src="@/assets/img/slide/slideHero0.png" alt="First slide">
                 <div class="carousel-caption  d-md-block">
-                   <h1>{{text.title}}</h1>
+                   <h1 data-aos="fade-left">{{text.title}}</h1>
+                    <p data-aos="fade-right">{{text.description}}</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="layer-slider"></div>
+                <img class="d-block w-100" src="@/assets/img/slide/slideHero4.png" alt="Second slide">
+                <div data-aos="fade-left" class="carousel-caption  d-md-block">
+                    <h1>{{text.title}}</h1>
                     <p>{{text.description}}</p>
                 </div>
             </div>
             <div class="carousel-item">
                 <div class="layer-slider"></div>
-                <img class="d-block w-100" src="@/assets/img/slide/slideHero1.png" alt="Second slide">
+                <img class="d-block w-100" src="@/assets/img/slide/slideHero5.png" alt="Third slide">
                 <div class="carousel-caption  d-md-block">
                     <h1>{{text.title}}</h1>
                     <p>{{text.description}}</p>
@@ -32,7 +40,7 @@
             </div>
             <div class="carousel-item">
                 <div class="layer-slider"></div>
-                <img class="d-block w-100" src="@/assets/img/slide/slideHero2.png" alt="Third slide">
+                <img class="d-block w-100" src="@/assets/img/slide/slideHero8.png" alt="Third slide">
                 <div class="carousel-caption  d-md-block">
                     <h1>{{text.title}}</h1>
                     <p>{{text.description}}</p>
@@ -40,15 +48,7 @@
             </div>
             <div class="carousel-item">
                 <div class="layer-slider"></div>
-                <img class="d-block w-100" src="@/assets/img/slide/slideHero3.png" alt="Third slide">
-                <div class="carousel-caption  d-md-block">
-                    <h1>{{text.title}}</h1>
-                    <p>{{text.description}}</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="layer-slider"></div>
-                <img class="d-block w-100" src="@/assets/img/slide/slideHero4.png" alt="Third slide">
+                <img class="d-block w-100" src="@/assets/img/slide/slideHero7.png" alt="Third slide">
                 <div class="carousel-caption  d-md-block">
                     <h1>{{text.title}}</h1>
                     <p>{{text.description}}</p>
@@ -87,6 +87,13 @@ export default {
   }
 },
  methods: {
+     scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      document.getElementById('to-top-btn').style.display = 'block';
+  } else {
+      document.getElementById('to-top-btn').style.display = 'none';
+  }
+},
     openModal(id){
         // alert(id);
       var modal=document.getElementById(id);
