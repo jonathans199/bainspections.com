@@ -16,6 +16,7 @@ import Content from '../views/Content'
 import Footer from '../components/Footer'
 import Quote from '../components/Quote'
 
+
 export default {
     name: 'Home',
     components: {
