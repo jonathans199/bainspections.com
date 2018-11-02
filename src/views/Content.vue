@@ -41,7 +41,7 @@
             <img src="./../assets/img/content/contentPic0.png">
         </div>
         </div>
-
+<Inspections/>
 <!-- SEC-B -->
 
         <div class="sec-b" id="sec-b">
@@ -336,7 +336,12 @@
 </template>
 
 <script>
+import Inspections from '../components/Inspections'
 export default {
+    name: 'Content',
+    components: {
+        Inspections
+    },
   data () {
     return {
         clientsA: [ 
