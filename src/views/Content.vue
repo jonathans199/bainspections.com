@@ -13,12 +13,12 @@
                         strive to meet the evolving needs of the market. </p>
                     <p>Our team has been expertly trained including 
                         personal training by John Micali, President 
-                        of Allied Building Inspection Services, 
+                        of B & A Engineering Building Inspection Services, 
                         and provide a very thorough evaluation 
                         of each property with inspection reports 
                         in most cases provided the following business day. 
                     </p>
-                    <p id="dark">Customer needs are our priority-and that is why Allied 
+                    <p id="dark">Customer needs are our priority-and that is why B & A Engineering 
                         is the top choice of realtors, homebuyers and real 
                         estate professionals in South Florida, with thousands 
                         of inspections performed yearly. Call us to see how we 
@@ -150,7 +150,7 @@
                  <div class="sec-c-bottom-left">
                      <div class="sec-d-layer"></div>
                      <div  class="sec-c-bottom-text-left">
-                        <p data-aos="fade-up">As a consumer,<strong class="strong-red">you will find numerous inspection companies available for hire.</strong>  We suggest this decision not be made based solely on whose services are the cheapest. Here are a few reasons to choose Allied Building Inspection Services:</p>
+                        <p data-aos="fade-up">As a consumer,<strong class="strong-red">you will find numerous inspection companies available for hire.</strong>  We suggest this decision not be made based solely on whose services are the cheapest. Here are a few reasons to choose B & A Engineering Building Inspection Services:</p>
                      </div>
                  </div>
                 <div class="sec-c-bottom-right">
@@ -158,13 +158,13 @@
                         <ul class="wrap-list">
                             <li data-aos="fade-left"><p><strong class="strong-red">Over 120,000 building inspections performed</strong> since 1993 ensures we have seen it all! We are the largest and oldest inspection company in South Florida</p></li>
                             <li data-aos="fade-right"><p><strong class="strong-red">$1,000,000 in Professional Liability insurance</strong> lets you know we are serious, responsible and stand behind our work.</p></li>
-                            <li data-aos="fade-left"><p><strong class="strong-red">Allied’s Industry best 100-Day Limited Warranty</strong> provides additional piece of mind from the most experienced inspectors in the business.</p></li>
+                            <li data-aos="fade-left"><p><strong class="strong-red">B & A Engineering’s Industry best 100-Day Limited Warranty</strong> provides additional piece of mind from the most experienced inspectors in the business.</p></li>
                             <li data-aos="fade-right"><p><strong class="strong-red">A true professional staff,</strong> including licensed inspectors, professional engineers, licensed mold assessors, registered architects, licensed roofers, and general contractors ensures that a wealth of knowledge is being applied to the services we provide. See our actual inspector’s profiles here.</p></li>
                             <li data-aos="fade-left"><p><strong class="strong-red">Over 20 full-time licensed inspectors</strong> means we can always get someone out to you quickly.</p></li>
-                            <li data-aos="fade-right"><p><strong class="strong-red">Full time Client Care Coordinators assist you with Allied’s</strong> Concierge Service, ensuring you have a real, live person to connect with when you call; not a voicemail on someone’s cellular phone. Call or email us for a proposal today.</p></li>
-                            <li data-aos="fade-left"><p><strong class="strong-red">An actual, real office with staff shows you Allied</strong> is here to stay and will be around tomorrow. We are not operating out of a truck or someone’s home garage.</p></li>
-                            <li data-aos="fade-right"><p><strong class="strong-red">Allied is the leading choice for professionals in South Florida</strong> such as attorneys, real estate agents, and lenders, the feedback we receive time and again is that our professionalism and service is unmatched in the industry. See our list of clients and awards on our website.</p></li>
-                            <li data-aos="fade-left"><p><strong class="strong-red">Allied’s Industry best computer generated reports,</strong> including repair estimates and photos are emailed to you upon completion, ensuring a timely delivery of the information you need.</p></li>
+                            <li data-aos="fade-right"><p><strong class="strong-red">Full time Client Care Coordinators assist you with B & A Engineering’s</strong> Concierge Service, ensuring you have a real, live person to connect with when you call; not a voicemail on someone’s cellular phone. Call or email us for a proposal today.</p></li>
+                            <li data-aos="fade-left"><p><strong class="strong-red">An actual, real office with staff shows you B & A Engineering</strong> is here to stay and will be around tomorrow. We are not operating out of a truck or someone’s home garage.</p></li>
+                            <li data-aos="fade-right"><p><strong class="strong-red">B & A Engineering is the leading choice for professionals in South Florida</strong> such as attorneys, real estate agents, and lenders, the feedback we receive time and again is that our professionalism and service is unmatched in the industry. See our list of clients and awards on our website.</p></li>
+                            <li data-aos="fade-left"><p><strong class="strong-red">B & A Engineering’s Industry best computer generated reports,</strong> including repair estimates and photos are emailed to you upon completion, ensuring a timely delivery of the information you need.</p></li>
                             <li data-aos="fade-right"><p><strong class="strong-red">Ask our clients! Call us</strong> for a list of references and see why we are South Florida’s finest.</p></li>
                         </ul>
                     </div>
@@ -216,7 +216,7 @@
             <h1 data-aos="fade-down">CLIENTS</h1>
         </div>
         <div class="sec-n-description">
-            <p data-aos="fade-down"><strong class="strong-red">Allied Building Inspection Services is the preferred choice of Fortune 500 companies,</strong> REITs, large and small investors, real estate companies and VIPs. Allied’s personnel is unmatched in experience, providing consultation and expertise sought by the most successful organizations and individuals living and working within the Sunshine State. The following are just a few of clients who have relied on Allied Building Inspection Services:</p>
+            <p data-aos="fade-down"><strong class="strong-red">B & A Engineering Building Inspection Services is the preferred choice of Fortune 500 companies,</strong> REITs, large and small investors, real estate companies and VIPs. B & A Engineering’s personnel is unmatched in experience, providing consultation and expertise sought by the most successful organizations and individuals living and working within the Sunshine State. The following are just a few of clients who have relied on B & A Engineering Building Inspection Services:</p>
         </div>
           <div data-aos="fade-down" class="sec-n-content">
             <div class="wrap-content-list">
@@ -256,13 +256,13 @@
             </div>
             <div data-aos="flip-right" class="sec-f-bottom-right">
                 <div class="sec-f-bottom-right-content">
-                    <p>At Allied Building Inspection Services, we are committed to creating meaningful change in the communities we serve through our philanthropic efforts and employee volunteerism. Allied supports the following charities and shares in their mission to help those who are disabled, disadvantaged or unable to help themselves:</p>
+                    <p>At B & A Engineering Building Inspection Services, we are committed to creating meaningful change in the communities we serve through our philanthropic efforts and employee volunteerism. B & A Engineering supports the following charities and shares in their mission to help those who are disabled, disadvantaged or unable to help themselves:</p>
                     <ul>
                         <li>Silent Angels Fund - www.floridarealtors.org</li>
                         <li>Greater Miami Fellowship of Christian Athletes - www.miamifca.org</li>
                         <li>Catholic Charities of the Archdiocese of Miami - www.ccadm.org</li>
                     </ul>
-                    <p>Service to others is one of our company’s guiding principles. We thank you for allowing us to serve you, and through your patronage, Allied will continue to serve others by donating a portion of revenue from each service we provide to these worthy charities.</p>
+                    <p>Service to others is one of our company’s guiding principles. We thank you for allowing us to serve you, and through your patronage, B & A Engineering will continue to serve others by donating a portion of revenue from each service we provide to these worthy charities.</p>
                 </div>
             </div>
         </div>
@@ -405,7 +405,7 @@ export default {
             text: "BUILDING INSPECTION SERVICES" },
             { title: "BORN FROM A STORM...",
             text: "WE’VE PERFORMED OVER 150.000 INSPECTIONS SINCE HURRICANE ANDREWAND CONTINUE TO SERVE SOUTH FLORIDA WITH PRIDE." },
-            { title: "ALLIED BUILDING INSPECTION SERVICES",
+            { title: "B & A Engineering BUILDING INSPECTION SERVICES",
             text: "HAS BEEN FEATURED ON NUMEROUS TELEVISION SHOWS ON THE HGTV NETWORK" },
             { title: "THE LEADER IN SOUTH FLORIDA HOME INSPECTIONS"}
 

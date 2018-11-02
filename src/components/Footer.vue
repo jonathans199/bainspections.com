@@ -28,7 +28,7 @@ export default {
       menu: [
         {item: "ABAUT"},
         {item: "OUR STORY"},
-        {item: "WHY CHOOSE ALLIED?"},
+        {item: "WHY CHOOSE B & A Engineering?"},
         {item: "TESTIMONIALS"},
         {item: "CLIENTS"},
         {item: "HONORS"},
