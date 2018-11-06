@@ -273,17 +273,18 @@
             <!-- <div class="sec-contact-left-title">
                 <h1>STAY IN TOUCH</h1>
             </div> -->
-            <form data-aos="flip-left">
+            <form @submit="submitForm" data-aos="flip-left">
                 <h1>STAY IN TOUCH</h1>
                 <label>E-mail</label>
-                <input placeholder="Email Address">
+                <input v-model="form.email" 
+                        placeholder="Email Address">
                  <label>Name: *</label>
-                <input placeholder="Complete name"> 
+                <input v-model="form.name" placeholder="Complete name"> 
                 <label>Phone Number: *</label>
-                <input placeholder="(+57)">
+                <input v-model="form.phone" placeholder="(+57)">
                  <label>Message: *</label>
-                <textarea  placeholder="Type" ></textarea>
-                <button>SEND</button>
+                <textarea v-model="form.message"  placeholder="Type" ></textarea>
+                <button type="submit">SEND</button>
             </form>
         </div>
         <div class="sec-contact-right">
@@ -337,6 +338,9 @@
 
 <script>
 import Inspections from '../components/Inspections'
+import * as config from '@/config/settings'
+import axios from 'axios'
+
 export default {
     name: 'Content',
     components: {
@@ -414,9 +418,51 @@ export default {
             text: "HAS BEEN FEATURED ON NUMEROUS TELEVISION SHOWS ON THE HGTV NETWORK" },
             { title: "THE LEADER IN SOUTH FLORIDA HOME INSPECTIONS"}
 
-        ]
+        ],
+        form: {}
     }
-  }
+  },
+    methods: {
+        submitForm(evt) {
+            evt.preventDefault() 
+            if(this.form.email || this.form.name){
+                this.loading = true
+                axios.post(config.defaultURL + config.storeUUID + '/client/forms?type=contact', this.form)
+                .then(response => {
+                if (response.status == 200) {
+                    this.loading = false
+                    this.form = {}
+                    this.$toasted.show('Contact sent', {
+                        position:'top-right', 
+                        duration: 5000,
+                        type: 'success',
+                        closeOnSwipe: true
+                    })
+                }
+                })
+                .catch((error) => {
+                this.loading = false
+                error.response.data.map((m,index) => {
+                    this.$toasted.show(m, {
+                        position:'top-right', 
+                        duration: 5000,
+                        type: 'error',
+                        closeOnSwipe: true
+                    })
+                })
+                })
+            } else {
+                this.$toasted.show('Missing fields', {
+                position:'top-right', 
+                duration: 5000,
+                type: 'error',
+                closeOnSwipe: true
+                })
+            }
+
+        }
+    }
+
 }
 
 </script>

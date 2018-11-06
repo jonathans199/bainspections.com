@@ -7,6 +7,7 @@
 
 @import '@/../assets/scss/main.scss';
 
+
 </style>
 <script>
 import SlideHome from './components/SlideHome'
@@ -16,9 +17,10 @@ import App from './App.vue'
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap-vue/dist/bootstrap-vue.css"
 import VueRouter from 'vue-router'
+import Toasted from 'vue-toasted'
 
 Vue.use(VueRouter); 
-
+Vue.use(Toasted)
 Vue.use(BootstrapVue);
 
 export default {
