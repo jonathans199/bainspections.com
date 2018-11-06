@@ -58,7 +58,7 @@ export default {
       ],
       menuEn : [
         {item: "INSPECTIONS",
-        aTag: "sec-c"},
+        aTag: "sec-insp"},
         {item: "TESTIMONIAL",
         aTag: "sec-d"},
         {item: "CLIENTS",
@@ -70,14 +70,14 @@ export default {
         {item: "CONTACT US",
         aTag: "sec-contact"}],
       menuSp: [
-        {item: "INSPECCIONES", aTag: "home"},
+        {item: "INSPECCIONES", aTag: "sec-insp"},
         {item: "TESTIMONIOS", aTag: "sec-d"},
         {item: "CLIENTES", aTag: "sec-n"},
         {item: "LICENCIAS", aTag: "sec-f"},
         {item: "NOSOTROS", aTag: "sec-a"},
         {item: "CONTACTANOS", aTag: "sec-contact"}],
       sectionsName: [
-        {item: "home"},
+        {item: "sec-insp"},
         {item: "sec-a"},
         {item: "sec-b"},
         {item: "sec-c"},
