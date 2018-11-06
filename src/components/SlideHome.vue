@@ -13,18 +13,18 @@
         <div data-aos="zoom-in" class="hero-btn">
             <input type="button" value="REQUEST A QUOTE" @click="openModal('modal-wrap')">
         </div>
-        <div class="carousel-inner">
+        <div class="carousel-inner carousel-inner-hero">
             <div class="carousel-item active">
                 <div class="layer-slider"></div>
-                <img class="d-block w-100" src="@/assets/img/slide/slideHero0.png" alt="First slide">
+                <img class="d-block w-100 d-block-hero" src="@/assets/img/slide/slideHero0.png" alt="First slide">
                 <div class="carousel-caption  d-md-block">
                    <h1 data-aos="fade-left">{{text.title}}</h1>
                     <p data-aos="fade-right">{{text.description}}</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <div class="layer-slider"></div>
-                <img class="d-block w-100" src="@/assets/img/slide/slideHero4.png" alt="Second slide">
+                <div class="layer-slider "></div>
+                <img class="d-block w-100 d-block-hero" src="@/assets/img/slide/slideHero4.png" alt="Second slide">
                 <div data-aos="fade-left" class="carousel-caption  d-md-block">
                     <h1>{{text.title}}</h1>
                     <p>{{text.description}}</p>
@@ -32,7 +32,7 @@
             </div>
             <div class="carousel-item">
                 <div class="layer-slider"></div>
-                <img class="d-block w-100" src="@/assets/img/slide/slideHero5.png" alt="Third slide">
+                <img class="d-block w-100 d-block-hero" src="@/assets/img/slide/slideHero5.png" alt="Third slide">
                 <div class="carousel-caption  d-md-block">
                     <h1>{{text.title}}</h1>
                     <p>{{text.description}}</p>
@@ -40,7 +40,7 @@
             </div>
             <div class="carousel-item">
                 <div class="layer-slider"></div>
-                <img class="d-block w-100" src="@/assets/img/slide/slideHero8.png" alt="Third slide">
+                <img class="d-block w-100 d-block-hero" src="@/assets/img/slide/slideHero8.png" alt="Third slide">
                 <div class="carousel-caption  d-md-block">
                     <h1>{{text.title}}</h1>
                     <p>{{text.description}}</p>
@@ -48,7 +48,7 @@
             </div>
             <div class="carousel-item">
                 <div class="layer-slider"></div>
-                <img class="d-block w-100" src="@/assets/img/slide/slideHero7.png" alt="Third slide">
+                <img class="d-block w-100 d-block-hero" src="@/assets/img/slide/slideHero7.png" alt="Third slide">
                 <div class="carousel-caption  d-md-block">
                     <h1>{{text.title}}</h1>
                     <p>{{text.description}}</p>
