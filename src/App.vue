@@ -10,7 +10,7 @@
 
 </style>
 <script>
-import SlideHome from './components/SlideHome'
+import SlideHome from './views/Home.vue'
 import Vue from 'vue'
 import BootstrapVue from "bootstrap-vue"
 import App from './App.vue'
@@ -24,7 +24,11 @@ Vue.use(Toasted)
 Vue.use(BootstrapVue);
 
 export default {
-  
+  data () {
+    return {
+      // selected: 'en',
+    }
+  }
 }
 </script>
 
