@@ -38,7 +38,7 @@
                     <img src="./../assets/img/icons/iphonIconB.png">
                     <h2>Email</h2>
                 </div>
-                <p>example@banda.com</p>
+                <p>info@bainspections.com</p>
                 
             </div>
              <div class="sec-contact-item">
@@ -46,7 +46,7 @@
                     <img src="./../assets/img/icons/iphonIconB.png">
                     <h2>Web Address</h2>
                 </div>
-                <p>www.banda.com</p>
+                <p>www.bainspections.com</p>
                 
             </div>
             <div class="sec-contact-item">
