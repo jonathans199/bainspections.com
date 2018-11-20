@@ -45,13 +45,13 @@
             </div>
             <div data-aos="flip-right" class="sec-f-bottom-right">
                 <div class="sec-f-bottom-right-content">
-                    <p>At Allied Building Inspection Services, we are committed to creating meaningful change in the communities we serve through our philanthropic efforts and employee volunteerism. Allied supports the following charities and shares in their mission to help those who are disabled, disadvantaged or unable to help themselves:</p>
+                    <p>At B&A we are commited to work with developers where teamwork is an essential part of workplace success. Everyone at B&A works together to accomplish goals, everyone achieves more.</p>
                     <ul>
-                        <li>Silent Angels Fund - www.floridarealtors.org</li>
-                        <li>Greater Miami Fellowship of Christian Athletes - www.miamifca.org</li>
-                        <li>Catholic Charities of the Archdiocese of Miami - www.ccadm.org</li>
+                        <li>We've partnered up with - www.floridarealtors.org</li>
+                        <!-- <li>Greater Miami Fellowship of Christian Athletes - www.miamifca.org</li>
+                        <li>Catholic Charities of the Archdiocese of Miami - www.ccadm.org</li> -->
                     </ul>
-                    <p>Service to others is one of our company’s guiding principles. We thank you for allowing us to serve you, and through your patronage, Allied will continue to serve others by donating a portion of revenue from each service we provide to these worthy charities.</p>
+                    <p>Service to others is one of our company’s guiding principles. We thank you for allowing us to serve you, and through your patronage</p>
                 </div>
             </div>
         </div>

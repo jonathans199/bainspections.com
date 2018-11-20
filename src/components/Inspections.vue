@@ -1,14 +1,14 @@
 <template>
 <div class="wrap-sec-inspections">
   <!-- <div id="sec-insp" class="sec-inspections position-relative"> -->
-    <div  class="stamp-with-mask ba-insp"><span id="ba-span">B&A</span> <span>INSPECTIONS</span></div>
+    <!-- <div  class="stamp-with-mask ba-insp"><span id="ba-span">B&A</span> <span>INSPECTIONS</span></div>
     <div class="sec-inspections-top-title sec-background flex-center">
       <div class="overlayer-insp"></div>
       <div class="wrap-top-title flex-center">
         <h1>{{topTitleEn[0].h1}}</h1>
         <h2>{{topTitleEn[1].h2}}</h2>
       </div>
-    </div>
+    </div> -->
     <div id="accordion">
       <div class="card" v-if = "inspectionsEn != null" v-for="(inspection, index) in inspectionsEn" :index="index" :key="inspection.id">
         <div class="card-header" v-bind:id="idsAcordion[index].idHeading">

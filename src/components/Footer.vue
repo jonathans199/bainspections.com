@@ -26,14 +26,10 @@ export default {
     return {
     
       menu: [
-        {item: "ABAUT"},
-        {item: "OUR STORY"},
-        {item: "WHY CHOOSE B & A Engineering?"},
-        {item: "TESTIMONIALS"},
-        {item: "CLIENTS"},
-        {item: "HONORS"},
-        {item: "CHARITIES"},
+        {item: "INSPECTIONS"},
         {item: "LICENSES"},
+        {item: "ABOUT"},
+        {item: "CLIENTS"},
         {item: "CONTACT US"}]
     }
   },

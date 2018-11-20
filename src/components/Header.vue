@@ -2,11 +2,11 @@
   <div class="wrap-nav" id="Home">
     <div class="wrap-nav-info">
       <div class="nav-info-item">
-        <h2 v-for="info in contactInfo" :key="info.id" >{{info.contact}}<span>/</span> </h2>
-        <select v-model="selected" value="ENGLISH">
+        <h2 v-for="info in contactInfo" :key="info.id" >{{info.contact}}<span></span> </h2>
+        <!-- <select v-model="selected" value="ENGLISH">
           <option value="en">ENGLISH</option>
           <option value="sp">ESPAÑOL</option>
-        </select>
+        </select> -->
       </div>
       <div class="nav-info-icons">
         <img v-for="pic in mediaPics" :key="pic.id" :src="pic.media">
@@ -59,12 +59,12 @@ export default {
       menuEn : [
         {item: "INSPECTIONS",
         aTag: "sec-insp"},
-        {item: "TESTIMONIAL",
-        aTag: "sec-d"},
-        {item: "CLIENTS",
-        aTag: "sec-n"},
+        // {item: "TESTIMONIAL",
+        // aTag: "sec-d"},
         {item: "LICENSES",
         aTag: "sec-f"},
+        {item: "CLIENTS",
+        aTag: "sec-n"},
         {item: "ABOUT",
         aTag: "sec-a"},
         {item: "CONTACT US",

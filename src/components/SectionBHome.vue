@@ -47,7 +47,7 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
-        <div class="wrap-sec-b-bottom">
+        <!-- <div class="wrap-sec-b-bottom">
             <div class="sec-b-bottom-left">
                 <div class="wrap-sec-b-text">
                     <div class="width-80">
@@ -86,7 +86,7 @@
                 </div>
             </div>
 
-        </div>
+        </div> -->
     </div>
   </div>
 </template>
@@ -165,7 +165,7 @@ export default {
             text: "BUILDING INSPECTION SERVICES" },
             { title: "BORN FROM A STORM...",
             text: "WE’VE PERFORMED OVER 150.000 INSPECTIONS SINCE HURRICANE ANDREWAND CONTINUE TO SERVE SOUTH FLORIDA WITH PRIDE." },
-            { title: "ALLIED BUILDING INSPECTION SERVICES",
+            { title: "B&A ENGINEERING INSPECTION SERVICES",
             text: "HAS BEEN FEATURED ON NUMEROUS TELEVISION SHOWS ON THE HGTV NETWORK" },
             { title: "THE LEADER IN SOUTH FLORIDA HOME INSPECTIONS"}
 

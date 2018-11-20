@@ -18,40 +18,40 @@
                 <div class="layer-slider"></div>
                 <img class="d-block w-100 d-block-hero" src="@/assets/img/slide/slideHero0.png" alt="First slide">
                 <div class="carousel-caption  d-md-block">
-                   <h1 data-aos="fade-left">{{text.title}}</h1>
-                    <p data-aos="fade-right">{{text.description}}</p>
+                   <h1 data-aos="fade-left">{{text1.title}}</h1>
+                    <p data-aos="fade-right">{{text1.description}}</p>
                 </div>
             </div>
             <div class="carousel-item">
                 <div class="layer-slider "></div>
                 <img class="d-block w-100 d-block-hero" src="@/assets/img/slide/slideHero4.png" alt="Second slide">
                 <div data-aos="fade-left" class="carousel-caption  d-md-block">
-                    <h1>{{text.title}}</h1>
-                    <p>{{text.description}}</p>
+                    <h1>{{text2.title}}</h1>
+                    <p>{{text2.description}}</p>
                 </div>
             </div>
             <div class="carousel-item">
                 <div class="layer-slider"></div>
                 <img class="d-block w-100 d-block-hero" src="@/assets/img/slide/slideHero5.png" alt="Third slide">
                 <div class="carousel-caption  d-md-block">
-                    <h1>{{text.title}}</h1>
-                    <p>{{text.description}}</p>
+                    <h1>{{text3.title}}</h1>
+                    <p>{{text3.description}}</p>
                 </div>
             </div>
             <div class="carousel-item">
                 <div class="layer-slider"></div>
                 <img class="d-block w-100 d-block-hero" src="@/assets/img/slide/slideHero8.png" alt="Third slide">
                 <div class="carousel-caption  d-md-block">
-                    <h1>{{text.title}}</h1>
-                    <p>{{text.description}}</p>
+                    <h1>{{text4.title}}</h1>
+                    <!-- <p>{{text4.description}}</p> -->
                 </div>
             </div>
             <div class="carousel-item">
                 <div class="layer-slider"></div>
                 <img class="d-block w-100 d-block-hero" src="@/assets/img/slide/slideHero7.png" alt="Third slide">
                 <div class="carousel-caption  d-md-block">
-                    <h1>{{text.title}}</h1>
-                    <p>{{text.description}}</p>
+                    <h1>{{text5.title}}</h1>
+                    <!-- <p>{{text5.description}}</p> -->
                 </div>
             </div>
         </div>
@@ -79,11 +79,28 @@ export default {
   name: 'SlideHome',
   data () {
     return {
-      text: {
-          title: "SOUTH FLORIDA’S",
+      text1: {
+          title: "FULL HOME INSPECTIONS",
+            description: "SAME DAY OR NEXT DAY APPOINTMENTS AVAILABLE"
+          
+      },
+      text2: {
+          title: "40 / 50 YEAR RECERTIFICATION",
             description: "LEADING BUILDING INSPECTION COMPANY"
           
-      }
+      },
+      text3: {
+          title: "COMPREHENSIVE INSPECTIONS",
+            description: "CALL US FOR YOUR INSPECTIONS NEEDS"
+          
+      },
+      text4: {
+          title: "CERTIFICATE OF BALCONY INSPECTIONS",
+            
+          
+      },text5: {
+          title: "CERTIFICATES OF USE INSPECTIONS",
+      },
   }
 },
  methods: {

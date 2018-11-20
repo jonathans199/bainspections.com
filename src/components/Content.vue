@@ -48,32 +48,28 @@
                  <div class="sec-c-bottom-left">
                      <div class="sec-d-layer"></div>
                      <div  class="sec-c-bottom-text-left">
-                        <p data-aos="fade-up">As a consumer,<strong class="strong-red">you will find numerous inspection companies available for hire.</strong>  We suggest this decision not be made based solely on whose services are the cheapest. Here are a few reasons to choose B & A Engineering Building Inspection Services:</p>
+                        <p data-aos="fade-up">B&A has carefully and diligently performed “THOUSANDS” Inspections for commercial and residential properties. Our lengthy professional experience with 40 Year Recertifications is unmatched; do not leave this process to poorly experienced, unqualified or uninsured firms.</p>
+                        <br>
+                        <p><strong class="strong-red">B&A 40 is very sensitive to the ongoing economic conditions property owners are facing.</strong> Therefore, now more than ever, we are ready to provide you with our professional expertise in a cost effective and conscientiously streamlined manner.</p>
                      </div>
                  </div>
-                <div class="sec-c-bottom-right">
+                <!-- <div class="sec-c-bottom-right">
                     <div class="wrap-in-bottom-right">
                         <ul class="wrap-list">
-                            <li ><p><strong class="strong-red">Over 120,000 building inspections performed</strong> since 1993 ensures we have seen it all! We are the largest and oldest inspection company in South Florida</p></li>
+                            <li ><p><strong class="strong-red">B&A 40 is very sensitive to the ongoing economic conditions property owners are facing.</strong> Therefore, now more than ever, we are ready to provide you with our professional expertise in a cost effective and conscientiously streamlined manner.</p></li>
                             <li ><p><strong class="strong-red">$1,000,000 in Professional Liability insurance</strong> lets you know we are serious, responsible and stand behind our work.</p></li>
                             <li ><p><strong class="strong-red">Allied’s Industry best 100-Day Limited Warranty</strong> provides additional piece of mind from the most experienced inspectors in the business.</p></li>
-                            <li ><p><strong class="strong-red">A true professional staff,</strong> including licensed inspectors, professional engineers, licensed mold assessors, registered architects, licensed roofers, and general contractors ensures that a wealth of knowledge is being applied to the services we provide. See our actual inspector’s profiles here.</p></li>
-                            <li ><p><strong class="strong-red">Over 20 full-time licensed inspectors</strong> means we can always get someone out to you quickly.</p></li>
-                            <li ><p><strong class="strong-red">Full time Client Care Coordinators assist you with Allied’s</strong> Concierge Service, ensuring you have a real, live person to connect with when you call; not a voicemail on someone’s cellular phone. Call or email us for a proposal today.</p></li>
-                            <li ><p><strong class="strong-red">An actual, real office with staff shows you Allied</strong> is here to stay and will be around tomorrow. We are not operating out of a truck or someone’s home garage.</p></li>
-                            <li ><p><strong class="strong-red">Allied is the leading choice for professionals in South Florida</strong> such as attorneys, real estate agents, and lenders, the feedback we receive time and again is that our professionalism and service is unmatched in the industry. See our list of clients and awards on our website.</p></li>
-                            <li ><p><strong class="strong-red">Allied’s Industry best computer generated reports,</strong> including repair estimates and photos are emailed to you upon completion, ensuring a timely delivery of the information you need.</p></li>
-                            <li ><p><strong class="strong-red">Ask our clients! Call us</strong> for a list of references and see why we are South Florida’s finest.</p></li>
+                            
                         </ul>
                     </div>
-                </div>
+                </div> -->
              </div>
          </section>
 
 
 
     <!-- SECTION D -->
-        <section class="sec-d" id="sec-d"> 
+        <!-- <section class="sec-d" id="sec-d"> 
             <div class="sec-d-bottom">
                 <div class="sec-d-layer"></div>
                 <div class="sec-d-bottom-title">
@@ -110,11 +106,11 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
 
     <!-- SECTION-E -->
-        <section class="sec-n" id="sec-n">
+        <!-- <section class="sec-n" id="sec-n">
             <div class="sec-n-title">
                 <h1 data-aos="fade-down">CLIENTS</h1>
             </div>
@@ -134,7 +130,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
     
     <!-- SECTION F -->
         <!-- <section class="sec-f" id="sec-f">
@@ -172,72 +168,72 @@
             </div>
         </section> -->
     
-    
     <!-- SECTION CONTACT -->
-    <section class="sec-contact" id='sec-contact'>
-        <div class="sec-contact-left">
-             <div class="sec-contact-left-title">
-                <h1>STAY IN TOUCH</h1>
-            </div> 
-            <form @submit="submitForm" data-aos="flip-left">
-                <h1>STAY IN TOUCH</h1>
-                <label>E-mail</label>
-                <input v-model="form.email" 
-                        placeholder="Email Address">
-                 <label>Name: *</label>
-                <input v-model="form.name" placeholder="Complete name"> 
-                <label>Phone Number: *</label>
-                <input v-model="form.phone" placeholder="(+57)">
-                 <label>Message: *</label>
-                <textarea v-model="form.message"  placeholder="Type" ></textarea>
-                <button type="submit">SEND</button>
-            </form>
-        </div>
-        <div class="sec-contact-right">
-          <div data-aos="flip-right" class="wrap-sec-contact-right">
-            <div class="sec-contact-item">
-                <div class="wrap-sec-contact-item">
-                    <img src="./../assets/img/icons/iphonIconB.png">
-                    <h2>Phone</h2>
-                </div>
-                <p>Tel: 305-234-7377</p>
-                
+        <!-- <section class="sec-contact" id='sec-contact'>
+            <div class="sec-contact-left">
+                <div class="sec-contact-left-title">
+                    <h1>STAY IN TOUCH</h1>
+                </div> 
+                <form @submit="submitForm" data-aos="flip-left">
+                    <h1>STAY IN TOUCH</h1>
+                    <label>E-mail</label>
+                    <input v-model="form.email" 
+                            placeholder="Email Address">
+                    <label>Name: *</label>
+                    <input v-model="form.name" placeholder="Complete name"> 
+                    <label>Phone Number: *</label>
+                    <input v-model="form.phone" placeholder="(+57)">
+                    <label>Message: *</label>
+                    <textarea v-model="form.message"  placeholder="Type" ></textarea>
+                    <button type="submit">SEND</button>
+                </form>
             </div>
-            <div class="sec-contact-item">
-                <div class="wrap-sec-contact-item">
-                    <img src="./../assets/img/icons/emailIconB.png">
-                    <h2>Mailing Address</h2>
+            <div class="sec-contact-right">
+            <div data-aos="flip-right" class="wrap-sec-contact-right">
+                <div class="sec-contact-item">
+                    <div class="wrap-sec-contact-item">
+                        <img src="./../assets/img/icons/iphonIconB.png">
+                        <h2>Phone</h2>
+                    </div>
+                    <p>Tel: 305-234-7377</p>
+                    
                 </div>
-                <p>8203 SW 124th Street Miami, FL 33156</p>
+                <div class="sec-contact-item">
+                    <div class="wrap-sec-contact-item">
+                        <img src="./../assets/img/icons/emailIconB.png">
+                        <h2>Mailing Address</h2>
+                    </div>
+                    <p>8203 SW 124th Street Miami, FL 33156</p>
+                </div>
+                <div class="sec-contact-item">
+                    <div class="wrap-sec-contact-item">
+                        <img src="./../assets/img/icons/iphonIconB.png">
+                        <h2>Email</h2>
+                    </div>
+                    <p>example@banda.com</p>
+                    
+                </div>
+                <div class="sec-contact-item">
+                    <div class="wrap-sec-contact-item">
+                        <img src="./../assets/img/icons/iphonIconB.png">
+                        <h2>Web Address</h2>
+                    </div>
+                    <p>www.banda.com</p>
+                    
+                </div>
+                <div class="sec-contact-item">
+                    <div class="teIR">
+                    <div class="wrap-sec-contact-img">
+                        <img src="./../assets/img/icons/iphonIconB.png">
+                        <img src="./../assets/img/icons/faceIconB.png">
+                        <img src="./../assets/img/icons/emailIconB.png">
+                    </div>
+                    </div>
+                </div>
             </div>
-             <div class="sec-contact-item">
-                <div class="wrap-sec-contact-item">
-                    <img src="./../assets/img/icons/iphonIconB.png">
-                    <h2>Email</h2>
-                </div>
-                <p>example@banda.com</p>
-                
             </div>
-             <div class="sec-contact-item">
-                <div class="wrap-sec-contact-item">
-                    <img src="./../assets/img/icons/iphonIconB.png">
-                    <h2>Web Address</h2>
-                </div>
-                <p>www.banda.com</p>
-                
-            </div>
-            <div class="sec-contact-item">
-                <div class="teIR">
-                <div class="wrap-sec-contact-img">
-                    <img src="./../assets/img/icons/iphonIconB.png">
-                    <img src="./../assets/img/icons/faceIconB.png">
-                    <img src="./../assets/img/icons/emailIconB.png">
-                </div>
-                </div>
-            </div>
-          </div>
-        </div>
-    </section>
+        </section> -->
+
 </div>
 
 </template>
