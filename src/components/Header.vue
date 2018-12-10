@@ -63,8 +63,8 @@ export default {
         // aTag: "sec-d"},
         {item: "LICENSES",
         aTag: "sec-f"},
-        {item: "CLIENTS",
-        aTag: "sec-n"},
+        // {item: "CLIENTS",
+        // aTag: "sec-n"},
         {item: "ABOUT",
         aTag: "sec-a"},
         {item: "CONTACT US",
@@ -107,12 +107,8 @@ export default {
           ele.className = ele.className.replace(/\bdisplay-none\b/g, "display-fl");
         }else if(!ele.classList.contains('display-none')){
           ele.className = ele.className.replace(/\bdisplay-fl\b/g, "display-none");
-
         }
       }
-     
   }
 }
 </script>
-
-
