@@ -9,7 +9,7 @@
         </select> -->
       </div>
       <div class="nav-info-icons">
-        <img v-for="pic in mediaPics" :key="pic.id" :src="pic.media">
+        <a v-for="pic in mediaPics" :key="pic.id" :href="pic.link"><img :src="pic.media"></a>
       </div>
     </div>
     <div class="wrap-logo-menu">
@@ -25,10 +25,10 @@
       <div class="nav-menu display-none" id="nav-me">
         <ul data-aos="fade-left">
           <li class="nav-item" v-if="selected == 'sp'"  v-for="items in menuSp" :key="items.id">
-            <a @click="goToByScroll(items.aTag)" class="nav-link" href="javascript:void(0)">{{items.item}}</a>
+            <a @click="goToByScroll(items.aTag)" class="nav-link" href="javascript:void(0)" :target="items.target">{{items.item}}</a>
           </li>
           <li class="nav-item" v-if="selected =='en'" v-for="items in menuEn" :key="items.id">
-            <a @click="goToByScroll(items.aTag)" class="nav-link" href="javascript:void(0)">{{items.item}}</a>
+            <a @click="goToByScroll(items.aTag)" class="nav-link-header" href="javascript:void(0)">{{items.item}}</a>
           </li>
         </ul>
       </div>
@@ -52,13 +52,13 @@ export default {
         {contact: 'INFO@BAINSPECTIONS.COM'}
       ],
       mediaPics: [  
-        {media: mediaPhone},
-        {media: mediaFace},
-        {media: mediaEmail}
+        {media: mediaPhone, link: 'tel:3052347377', target: ''},
+        {media: mediaFace, link: 'https://www.facebook.com', target: ''},
+        {media: mediaEmail, link: 'mailto:info@bainspections.com', target: '_blank'}
       ],
       menuEn : [
         {item: "INSPECTIONS",
-        aTag: "sec-insp"},
+        aTag: "sec-b"},
         // {item: "TESTIMONIAL",
         // aTag: "sec-d"},
         {item: "LICENSES",

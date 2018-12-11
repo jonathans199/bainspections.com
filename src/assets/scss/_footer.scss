@@ -46,14 +46,24 @@
 .nav-item{
   margin: 4px;
 }
-
-.nav-item a{
+.nav-link-footer{
+  color: #ffffff !important;
+  transition: .2s;
+}
+.nav-link-footer:hover{
+  color:#C1272D !important;
+  text-decoration: none;
+}
+.nav-item .nav-link-footer{
   width: 50%;
   transition: .2s;
 }
-
-.nav-item a:hover{
+.nav-item:hover{
+  color: #C1272D;
+}
+.nav-item .nav-link-footer:hover{
   color:#C1272D;
+  text-decoration: none;
 }
 /*
 =================

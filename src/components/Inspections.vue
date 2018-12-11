@@ -1,5 +1,5 @@
 <template>
-<div class="wrap-sec-inspections">
+<div class="wrap-sec-inspections" id="sec-insp">
   <!-- <div id="sec-insp" class="sec-inspections position-relative"> -->
     <!-- <div  class="stamp-with-mask ba-insp"><span id="ba-span">B&A</span> <span>INSPECTIONS</span></div>
     <div class="sec-inspections-top-title sec-background flex-center">

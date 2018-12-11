@@ -63,6 +63,14 @@ select option[selected="selected"]:focus {
     padding: 8px 10px;
 }
 /* 
+===================
+    SOCIAL MEDIA
+===================
+*/
+.socialmedia-link{
+    cursor: pointer;
+}
+/* 
 ================
     LOGO MENU
 ================
@@ -123,14 +131,15 @@ select option[selected="selected"]:focus {
 .nav-item:hover{
     color: #C1272D;
 }
-.nav-item a{
+.nav-item .nav-link-header{
     text-align: left;
     width: 100% !important;
     color: #000000;
     transition: .3s;
 }
-.nav-item a:hover{
+.nav-item .nav-link-header:hover{
     color: #C1272D;
+    text-decoration: none;
 }
 /* BURGER MENU */
 .display-burger{
