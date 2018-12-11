@@ -3,9 +3,7 @@
  <!-- SECTION CONTACT -->
   <section class="sec-contact" id='sec-contact'>
       <div class="sec-contact-left">
-          <div class="sec-contact-left-title">
-              <h1>STAY IN TOUCH</h1>
-          </div> 
+          
           <form @submit="submitForm" data-aos="flip-left">
               <h1>STAY IN TOUCH</h1>
               <label>E-mail</label>
@@ -42,7 +40,7 @@
                   <img src="./../assets/img/icons/iphonIconB.png">
                   <h2>Email</h2>
               </div>
-              <p>example@banda.com</p>
+              <a href="mailto:info@bainspections.com">info@bainspections.com</a>
               
           </div>
           <div class="sec-contact-item">
@@ -50,17 +48,17 @@
                   <img src="./../assets/img/icons/iphonIconB.png">
                   <h2>Web Address</h2>
               </div>
-              <p>www.banda.com</p>
+              <a href="mailto:info@bainspections.com">www.bainspections.com</a>
               
           </div>
           <div class="sec-contact-item">
-              <div class="teIR">
+            <div class="teIR">
               <div class="wrap-sec-contact-img">
                 <a href="tel:3052347377" class="socialmedia-link"><img src="./../assets/img/icons/iphonIconB.png" ></a>
                 <a href="https://www.facebook.com" class="socialmedia-link" target="_blank"><img src="./../assets/img/icons/faceIconB.png"></a>
                 <a href="mailto:info@bainspections.com" class="socialmedia-link"><img src="./../assets/img/icons/emailIconB.png"></a>
               </div>
-              </div>
+            </div>
           </div>
       </div>
       </div>
@@ -72,7 +70,6 @@
     import axios from 'axios'
     
     export default {
-       
         data() {
             return {
                 form: {}
