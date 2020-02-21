@@ -48,13 +48,13 @@ export default {
     return {
       selected: 'en',
       contactInfo: [ 
-        {contact: 'TEL:305-345-3456'},
-        {contact: 'INFO@BAINSPECTIONS.COM'}
+        {contact: 'TEL:786-473-5813'},
+        {contact: 'rbarreiro.pe@gmail.com'}
       ],
       mediaPics: [  
-        {media: mediaPhone, link: 'tel:3052347377', target: ''},
+        {media: mediaPhone, link: 'tel: 7864735813', target: ''},
         {media: mediaFace, link: 'https://www.facebook.com', target: ''},
-        {media: mediaEmail, link: 'mailto:info@bainspections.com', target: '_blank'}
+        {media: mediaEmail, link: 'mailto:rbarreiro.pe@gmail.com', target: '_blank'}
       ],
       menuEn : [
         {item: "INSPECTIONS",

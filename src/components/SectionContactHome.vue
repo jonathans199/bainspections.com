@@ -25,7 +25,7 @@
                   <img src="./../assets/img/icons/iphonIconB.png">
                   <h2>Phone</h2>
               </div>
-              <p>Tel: 305-234-7377</p>
+              <p>Tel: 786-473-5813</p>
               
           </div>
           <div class="sec-contact-item">
@@ -33,14 +33,14 @@
                   <img src="./../assets/img/icons/emailIconB.png">
                   <h2>Mailing Address</h2>
               </div>
-              <p>8203 SW 124th Street Miami, FL 33156</p>
+              <p>15053 SW 57th street, Miami, FL 33193</p>
           </div>
           <div class="sec-contact-item">
               <div class="wrap-sec-contact-item">
                   <img src="./../assets/img/icons/iphonIconB.png">
                   <h2>Email</h2>
               </div>
-              <a href="mailto:info@bainspections.com">info@bainspections.com</a>
+              <a href="mailto:rbarreiro.pe@gmail.com">rbarreiro.pe@gmail.com</a>
               
           </div>
           <div class="sec-contact-item">
@@ -48,15 +48,15 @@
                   <img src="./../assets/img/icons/iphonIconB.png">
                   <h2>Web Address</h2>
               </div>
-              <a href="mailto:info@bainspections.com">www.bainspections.com</a>
+              <a href="mailto:rbarreiro.pe@gmail.com">www.bainspections.com</a>
               
           </div>
           <div class="sec-contact-item">
             <div class="teIR">
               <div class="wrap-sec-contact-img">
-                <a href="tel:3052347377" class="socialmedia-link"><img src="./../assets/img/icons/iphonIconB.png" ></a>
+                <a href="tel:7864735813" class="socialmedia-link"><img src="./../assets/img/icons/iphonIconB.png" ></a>
                 <a href="https://www.facebook.com" class="socialmedia-link" target="_blank"><img src="./../assets/img/icons/faceIconB.png"></a>
-                <a href="mailto:info@bainspections.com" class="socialmedia-link"><img src="./../assets/img/icons/emailIconB.png"></a>
+                <a href="mailto:rbarreiro.pe@gmail.com" class="socialmedia-link"><img src="./../assets/img/icons/emailIconB.png"></a>
               </div>
             </div>
           </div>

@@ -51,7 +51,7 @@
                         <p data-aos="fade-up">B&A has carefully and diligently performed “THOUSANDS” Inspections for commercial and residential properties. Our lengthy professional experience with 40 Year Recertifications is unmatched; do not leave this process to poorly experienced,
                             unqualified or uninsured firms.</p>
                         <br>
-                        <p><strong class="strong-red">B&A 40 is very sensitive to the ongoing economic conditions property owners are facing.</strong> Therefore, now more than ever, we are ready to provide you with our professional expertise in a cost effective
+                        <p><strong class="strong-red">B&A is very sensitive to the ongoing economic conditions property owners are facing.</strong> Therefore, now more than ever, we are ready to provide you with our professional expertise in a cost effective
                             and conscientiously streamlined manner.</p>
                     </div>
                 </div>
@@ -315,12 +315,8 @@
                         text: "BUILDING INSPECTION SERVICES"
                     },
                     {
-                        title: "BORN FROM A STORM...",
-                        text: "WE’VE PERFORMED OVER 150.000 INSPECTIONS SINCE HURRICANE ANDREWAND CONTINUE TO SERVE SOUTH FLORIDA WITH PRIDE."
-                    },
-                    {
                         title: "B & A Engineering BUILDING INSPECTION SERVICES",
-                        text: "HAS BEEN FEATURED ON NUMEROUS TELEVISION SHOWS ON THE HGTV NETWORK"
+                        text: "READY FOR YOUR PROJECT"
                     },
                     {
                         title: "THE LEADER IN SOUTH FLORIDA HOME INSPECTIONS"
